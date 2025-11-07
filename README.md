@@ -14,3 +14,7 @@ saya merubahnya menajdi ``int[] bil = {5, 13, -7, 17};``
 3. Ubah statement pada langkah No 4 menjadi seperti berikut, Apa keluaran dari program? Jelaskan maksud dari statement tersebut.
 
 keluaran nya masih sama dengan yang sebelumnya ``5 13 -7 17``, Potongan kode ini menampilkan isi array bil dari indeks 0 sampai 3.
+
+4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?
+
+akan terjadi erorr, karena di array hanya ada index 1-3 saja tidak ada index ke 4
