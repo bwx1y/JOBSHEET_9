@@ -29,3 +29,6 @@ tidak kerjadi apa apa masih sama, kerena ``nilaiAkhir.length`` juga akan berisi 
 
 Kondisi i < nilaiAkhir.length berarti perulangan akan berjalan sebanyak jumlah elemen dalam array nilaiAkhir, dari indeks pertama (0) sampai indeks terakhir (length - 1).
 
+3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70):
+
+code itu hanya kan menampilkan mahasiswa yang lulus saja
