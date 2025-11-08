@@ -32,3 +32,7 @@ Kondisi i < nilaiAkhir.length berarti perulangan akan berjalan sebanyak jumlah e
 3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70):
 
 code itu hanya kan menampilkan mahasiswa yang lulus saja
+
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut:
+
+aku menambahkan: ``else System.out.println("Mahasiswa ke-"+i+" Tidak Lulus!");``
