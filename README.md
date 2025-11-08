@@ -80,3 +80,10 @@ int jumlahMahasiswa = sc.nextInt();
 
 int[] nilaiMhs = new int[jumlahMahasiswa];
 ```
+
+## Percobaan 4: Pertanyaan
+
+1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas.
+
+``break`` digunakan untuk menghentikan perulangan (loop) secara langsung, sebelum kondisi loop selesai.
+
