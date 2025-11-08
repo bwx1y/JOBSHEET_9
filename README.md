@@ -25,4 +25,7 @@ akan terjadi erorr, karena di array hanya ada index 1-3 saja tidak ada index ke 
 
 tidak kerjadi apa apa masih sama, kerena ``nilaiAkhir.length`` juga akan berisi 10 ini akan berisu sejumlah isi yang ada di deklarasikan
 
-2. 
+2. Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ?
+
+Kondisi i < nilaiAkhir.length berarti perulangan akan berjalan sebanyak jumlah elemen dalam array nilaiAkhir, dari indeks pertama (0) sampai indeks terakhir (length - 1).
+
