@@ -70,3 +70,13 @@ public class ArrayRataNilai18 {
     }
 }
 ```
+
+2. Modifikasi program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java) sehingga program menerima jumlah elemen berdasarkan input dari pengguna dan mengeluarkan output seperti berikut ini:
+
+aku melakukan penambahan dan melakukan perubahan : 
+```
+System.out.print("Masukkan jumlah mahasiswa: ");
+int jumlahMahasiswa = sc.nextInt();
+
+int[] nilaiMhs = new int[jumlahMahasiswa];
+```
