@@ -124,4 +124,11 @@ public class SearchNilai18 {
 }
 ```
 
+3. Modifikasi program pada percobaan 4 di atas, sehingga program akan memberikan pesan"Nilai yang dicari tidak ditemukan" jika nilai yang dicari (key) tidak ada di dalam array. Contoh tampilan program sebagai berikut:
+
+aku melakukan perubahan di saat menampilkan hasil menjadi: 
+```
+if (hasil != -1) System.out.println("Nilai " + key + " ketemu, merupakan mahasiswa ke-" + hasil);
+else System.out.print("Nilai yang di cari tidak di temukan");
+```
 
