@@ -15,10 +15,10 @@ public class Tugas3 {
         System.out.print("Masukkan nama makanan/minuman yang ingin dicari: ");
         String search = sc.nextLine();
 
-        String find = Arrays.stream(menu)
-                .filter(f -> f.equalsIgnoreCase(search))
-                .findFirst()
-                .orElse(null);
+        String find = null;
+        for (String item: menu) {
+            if (item.equalsIgnoreCase(search)) find = item;
+        }
 
         if (find == null) {
             System.out.println("❌ Maaf, " + search + " tidak ada di menu.");
