@@ -11,15 +11,20 @@ public class Tugas1 {
         int valueLength = sc.nextInt();
 
         int[] value = new int[valueLength];
+        double average = 0;
+        int minValue = 100;
+        int maxValue = 0;
 
         for (int i = 0; i < valueLength; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i+1) + ": ");
             value[i] = sc.nextInt();
+            average += value[i];
+
+            if (value[i] > maxValue) maxValue = value[i];
+            if (value[i] < minValue) minValue = value[i];
         }
 
-        double average = Arrays.stream(value).average().orElse(0);
-        int maxValue = Arrays.stream(value).max().orElse(0);
-        int minValue = Arrays.stream(value).min().orElse(0);
+        average /= valueLength;
 
         System.out.println();
         for (int i = 0; i < valueLength; i++) {
